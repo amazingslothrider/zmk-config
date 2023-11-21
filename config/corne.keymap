@@ -50,10 +50,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB     &bt BT_NXT            &kp N2                &kp N3      &kp N4           &kp N5          &kp N6   &kp N7          &kp UP_ARROW    &kp N9     &kp N0  &kp BSPC
-&kp K_REDO  &kp K_UNDO            &kp K_CUT             &kp K_COPY  &kp K_PASTE      &kp K_COPY      &kp ESC  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans  &trans
-&kp LSHFT   &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp K_MUTE  &kp C_VOL_DN     &kp C_VOL_UP    &trans   &trans          &trans          &trans     &trans  &trans
-                                                        &kp LGUI    &lt 1 BACKSPACE  &tog 2          &kp RET  &trans          &kp RALT
+&kp TAB     &bt BT_NXT            &kp N2                &kp N3      &kp N4           &kp N5          &kp N6         &kp N7          &kp UP_ARROW    &kp N9     &kp N0  &kp BSPC
+&kp K_REDO  &kp K_UNDO            &kp K_CUT             &kp K_COPY  &kp K_PASTE      &kp K_COPY      &kp BACKSPACE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans  &trans
+&kp LSHFT   &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp K_MUTE  &kp C_VOL_DN     &kp C_VOL_UP    &trans         &trans          &trans          &trans     &trans  &trans
+                                                        &kp LGUI    &lt 1 BACKSPACE  &tog 2          &kp RET        &trans          &kp RALT
             >;
         };
     };
